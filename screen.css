@@ -50,8 +50,9 @@ table {
 }/*end reset*/
 
 html {
-  font-family: 'Lato', Didact Gothic, CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-family: 'Lato', 'Nunito', Didact Gothic, CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: 1.5em;
+  line-height: 1.222em;
   /*background-color:  #424949;*/
   color: white;
   padding-top: 0.3em;
@@ -63,6 +64,7 @@ html {
   background-position: center;
   background-blend-mode: color-dodge;
   background-image: url(images/background1.png);
+  color: white;
 }
 
 .logo{
@@ -109,6 +111,7 @@ a:active {
  li .navigation {
   text-align: center;
  	display: inline-grid;
+
  }
 h1 {
   font-size: 2.5em;
