@@ -165,7 +165,8 @@ p{
 	margin-right: 4em;
 	/*max-width: 60%;*/
 }
-/*resume*/
+
+/*Resume*/
 /*download resume*/
 #download{
 	color: red;
@@ -202,4 +203,30 @@ p{
 	padding: 0.5em;
 	text-align: left;
 	line-height: 1.2em;
+}
+
+/* My work*/
+
+#work{
+	margin-top: 1.3em;
+}
+.work{
+	color: teal;
+	text-align: center;
+ 	display: inline-grid;
+  border: solid;
+	/*background-color: #33333a; #5d6d7e;*/
+	cursor: pointer;
+	padding: 3em;
+	maxa-width: 20%;
+	border-radius: 0.4em;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.work:hover{
+	background-color: #1e1e23;
 }
