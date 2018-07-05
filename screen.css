@@ -49,6 +49,7 @@ table {
 	border-spacing: 0;
 }/*end reset*/
 
+/*HTML genral*/
 html {
   font-family: 'Lato', 'Nunito', Didact Gothic, CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: 1.5em;
@@ -156,10 +157,49 @@ p{
   background-color: #2e4053;
 }
 
+/* This is the short description on the index page*/
 #tag{
 	margin-top: 3em;
 	margin-bottom: 3em;
 	margin-left: 4em;
 	margin-right: 4em;
 	/*max-width: 60%;*/
+}
+/*resume*/
+/*download resume*/
+#download{
+	color: red;
+	text-align: center;
+ 	display: inline-grid;
+  border: solid;
+	background-color: #1e1e23; /*#5d6d7e;*/
+	cursor: pointer;
+	padding: 0.7em;
+	border-radius: 0.4em;
+	/* Safari */
+  cursor: pointer;
+  font-size: 1.1em
+}
+
+/*About Me*/
+#pic{
+	max-width: 30%;
+	max-height: 30%;
+	float: right;
+	margin: 2em;
+}
+
+#bio{
+	color: gray;
+	font-style: italic;
+}
+
+#about{
+	margin: 3em;
+}
+
+.about{
+	padding: 0.5em;
+	text-align: left;
+	line-height: 1.2em;
 }
