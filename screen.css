@@ -56,6 +56,7 @@ html {
   /*background-color:  #424949;*/
   color: white;
   padding-top: 0.3em;
+	text-align: center;
 }
 
 .body{
@@ -71,9 +72,11 @@ html {
   display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
 	max-width: 30%;
-	float: left;
-  padding: .5em;
+	float: center;
+
 }
 
 /* for links */
@@ -99,20 +102,27 @@ a:active {
 
 /*nav bar*/
 .navigation{
-  text-align: right;
-  float: right;
+  text-align: center;
   list-style-type: none;
-  margin: 0.4em;
+  margin: 0.3em;
   overflow: hidden;
   color: #a13b90;
   display: inline;
+	float: none;
+  border: none;
+	background-color: none;
+	padding: 0.4em;
+	border-radius: 0.4em;
+	/* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
  }
 
  li .navigation {
   text-align: center;
  	display: inline-grid;
-
  }
+
 h1 {
   font-size: 2.5em;
   margin-top: 0.3em;
@@ -124,7 +134,7 @@ p{
 }
 /*arrows for links on index.html pg*/
 .arrow{
-  margin: 4em;
+  margin: 1em;
   text-align: center;
 }
 .arrow1{
@@ -132,7 +142,7 @@ p{
   text-align: center;
  	display: inline-grid;
   border: none;
-	background-color: #5d6d7e;
+	background-color: #1e1e23; /*#5d6d7e;*/
 	cursor: pointer;
 	padding: 0.7em;
 	border-radius: 0.4em;
@@ -140,9 +150,16 @@ p{
 	/* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  margin: 0.5em;
   font-size: 1.1em;
 }
 .arrow1:hover {
   background-color: #2e4053;
+}
+
+#tag{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	margin-left: 4em;
+	margin-right: 4em;
+	/*max-width: 60%;*/
 }
