@@ -65,7 +65,7 @@ html {
   background-size: auto;
   background-position: center;
   background-blend-mode: color-dodge;
-  background-image: url(images/background1.png);
+  background-image: url(images/background2.png);
   color: white;
 }
 
@@ -122,7 +122,12 @@ a:active {
  li .navigation {
   text-align: center;
  	display: inline-grid;
+	padding-top: 1em;
+	padding-bottom: 1em;
  }
+
+/*when screen reaches a certain size(small), make nav go into a hamburger menu*/
+
 
 h1 {
   font-size: 2.5em;
@@ -133,11 +138,14 @@ h1 {
 p{
   margin: 0.3em;
 }
-/*arrows for links on index.html pg*/
+
+/*~~~index (home) page~~~*/
+/*arrows are button links on index.html pg*/
 .arrow{
   margin: 1em;
   text-align: center;
 }
+/* each indv button */
 .arrow1{
   float: none;
   text-align: center;
@@ -157,16 +165,28 @@ p{
   background-color: #2e4053;
 }
 
-/* This is the short description on the index page*/
+/* This is the short description on the index page (tagline)*/
 #tag{
 	margin-top: 3em;
 	margin-bottom: 3em;
-	margin-left: 4em;
-	margin-right: 4em;
+	margin-left: 3em;
+	margin-right: 3em;
 	/*max-width: 60%;*/
+	text-align: left;
+	border: hidden;
+
 }
 
-/*Resume*/
+#topEmail{
+	float: right;
+	text-align: right;
+	color: #1e1e23;
+	font-size: 0.7em;
+	margin: 0.3em;
+}
+
+
+/*~~~Resume~~~*/
 /*download resume*/
 #download{
 	color: red;
@@ -182,12 +202,19 @@ p{
   font-size: 1.1em
 }
 
-/*About Me*/
+/*~~~About Me~~~*/
 #pic{
 	max-width: 30%;
 	max-height: 30%;
 	float: right;
 	margin: 2em;
+	border: solid;
+	/*background-color: #33333a; #5d6d7e;*/
+	maxa-width: 20%;
+	padding: .1em;
+	border-radius: 0.4em;
+	color: teal;
+
 }
 
 #bio{
@@ -196,7 +223,8 @@ p{
 }
 
 #about{
-	margin: 3em;
+	margin: 1em;
+	font-size: 0.8em;
 }
 
 .about{
@@ -205,7 +233,7 @@ p{
 	line-height: 1.2em;
 }
 
-/* My work*/
+/*~~~ My work~~~*/
 
 #work{
 	margin-top: 1.3em;
