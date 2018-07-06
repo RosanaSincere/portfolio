@@ -272,6 +272,8 @@ p{
 	margin: 1em;
 }
 
+/*cleaar forms after send*/
+
 input[type=text], input[type=email] {
 	display: inline-block;
 	border: 0.2em solid #99FFFF;
@@ -281,11 +283,28 @@ input[type=text], input[type=email] {
 	color: black;
 }
 
+input:focus{
+	background-color: #a9cce3;
+}
+
 #message{
-	/* make the text box bigger (wider?)*/
+		width: 100%;
+    min-height: 100%;
+		padding: 2em;
+    box-sizing: border-box;
+    resize: both;
+		text-align: left;
+		display: inline-block;
+		border: 0.2em solid #99FFFF;
+		border-radius: 0.1em;
+		background-color: #cbffef;
+		color: black;
+}
+
+#message:focus{
+	background-color: #a9cce3;
 }
 
 #sendEmail{
-	float: right;
-	margin: 1em;
+	width: 100%;
 }
