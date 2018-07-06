@@ -210,10 +210,8 @@ p{
 	margin: 2em;
 	border: solid;
 	/*background-color: #33333a; #5d6d7e;*/
-	maxa-width: 20%;
-	padding: .1em;
 	border-radius: 0.4em;
-	color: teal;
+	color: black;
 
 }
 
@@ -257,4 +255,37 @@ p{
 
 .work:hover{
 	background-color: #1e1e23;
+}
+
+/*~~~ Contact Me page ~~~*/
+.reach{
+	text-align: center;
+}
+#emailForm{
+	display: inline-block;
+	border: 0.2em solid black;
+	border-radius: 0.1em;
+	background-color: teal;
+	color: white;
+}
+.contact {
+	margin: 1em;
+}
+
+input[type=text], input[type=email] {
+	display: inline-block;
+	border: 0.2em solid #99FFFF;
+	border-radius: 0.1em;
+	box-sizing: border-box;
+	background-color: #cbffef;
+	color: black;
+}
+
+#message{
+	/* make the text box bigger (wider?)*/
+}
+
+#sendEmail{
+	float: right;
+	margin: 1em;
 }
