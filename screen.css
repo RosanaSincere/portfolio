@@ -75,8 +75,8 @@ html {
 	margin-right: auto;
 	margin-top: 1em;
 	margin-bottom: 0.5em;
-	max-width: 30%;
-	float: center;
+	max-width: 20%;
+	text-align: center;
 
 }
 
@@ -271,8 +271,6 @@ p{
 .contact {
 	margin: 1em;
 }
-
-/*cleaar forms after send*/
 
 input[type=text], input[type=email] {
 	display: inline-block;
