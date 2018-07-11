@@ -2,9 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* Base */
 
- /*start reset*/
-
+/*reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -65,19 +65,8 @@ html {
   background-size: auto;
   background-position: center;
   background-blend-mode: color-dodge;
-  background-image: url(images/background2.png);
+  background-image: url(images/background2_.png);
   color: white;
-}
-
-.logo{
-  display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
-	margin-bottom: 0.5em;
-	max-width: 20%;
-	text-align: center;
-
 }
 
 /* for links */
@@ -99,6 +88,28 @@ a:hover {
 a:active {
     text-decoration: underline;
 		color: red;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 0.3em;
+  margin-left: 0.3em;
+}
+
+p{
+  margin: 0.3em;
+}
+
+/* Layout */
+
+.logo{
+  display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	max-width: 20%;
+	text-align: center;
 }
 
 /*nav bar*/
@@ -125,19 +136,6 @@ a:active {
 	padding-top: 1em;
 	padding-bottom: 1em;
  }
-
-/*when screen reaches a certain size(small), make nav go into a hamburger menu*/
-
-
-h1 {
-  font-size: 2.5em;
-  margin-top: 0.3em;
-  margin-left: 0.3em;
-}
-
-p{
-  margin: 0.3em;
-}
 
 /*~~~index (home) page~~~*/
 /*arrows are button links on index.html pg*/
@@ -187,6 +185,8 @@ p{
 
 
 /*~~~Resume~~~*/
+
+
 /*download resume*/
 #download{
 	color: red;
@@ -199,10 +199,97 @@ p{
 	border-radius: 0.4em;
 	/* Safari */
   cursor: pointer;
-  font-size: 1.1em
 }
 
+.resumeHeaders{
+	text-align: center;
+	margin-left: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* education */
+#edu{
+	text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-block;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.2em;
+}
+
+.edu{
+	text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-block;
+	margin-top: 0.3em;
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	margin-bottom: 1.5em;
+	text-align: center;
+	float: left;
+}
+
+.eduPics{
+	max-width: 50%;
+}
+
+#gtb{
+	margin-bottom: 1.8em;
+	margin-top: 1.7em;
+}
+
+/* skills */
+.skillsList{
+	text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-block;
+	margin-top: 0.3em;
+	margin-left: 4em;
+	margin-right: 4em;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+.skillName{
+	font-size: 1.1em;
+}
+
+.skillsList1{
+	text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-block;
+	margin-top: 0.3em;
+	margin-left: 4em;
+	margin-right: 4em;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+.skill{
+	margin: 0.5em;
+	padding: 0.2em;
+	border: solid;
+	border-color: gray;
+	border-radius: 0.4em;
+	-webkit-transition-duration: 0.2s;
+	/* Safari */
+	transition-duration: 0.2s;
+	cursor: pointer;
+	}
+	.skill:hover {
+		opacity: 0.5;
+	background-color: #2e4053;
+	}
+
+
 /*~~~About Me~~~*/
+
+
 #pic{
 	max-width: 30%;
 	max-height: 30%;
@@ -231,7 +318,9 @@ p{
 	line-height: 1.2em;
 }
 
+
 /*~~~ My work~~~*/
+
 
 #work{
 	margin-top: 1.3em;
@@ -257,7 +346,10 @@ p{
 	background-color: #1e1e23;
 }
 
+
 /*~~~ Contact Me page ~~~*/
+
+
 .reach{
 	text-align: center;
 }
@@ -279,6 +371,7 @@ input[type=text], input[type=email] {
 	box-sizing: border-box;
 	background-color: #cbffef;
 	color: black;
+	padding-right: 8em;
 }
 
 input:focus{
@@ -288,7 +381,10 @@ input:focus{
 #message{
 		width: 100%;
     min-height: 100%;
-		padding: 2em;
+		padding-left: 0.2em;
+		padding-right: 3.8em;
+		padding-top:0.2em;
+		padding-bottom: 3.8em;
     box-sizing: border-box;
     resize: both;
 		text-align: left;
@@ -305,4 +401,29 @@ input:focus{
 
 #sendEmail{
 	width: 100%;
+}
+
+#findMe{
+	color: gray;
+	font-style: italic;
+	text-align: right;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+}
+
+#socialMedia{
+	text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  display: inline;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.2em;
+	float: right;
+}
+.socials{
+	text-align: center;
+  list-style-type: none;
+  display: inline;
+	margin:0.2em;
 }
