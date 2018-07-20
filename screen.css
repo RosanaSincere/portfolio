@@ -71,23 +71,23 @@ html {
 
 /* for links */
 a:link {
-    text-decoration: none;
-		color: #FFFF81;
+  text-decoration: none;
+	color: #FFFF81;
 }
 
 a:visited {
-    text-decoration: none;
-		color: #FFFF81;
+  text-decoration: none;
+	color: #FFFF81;
 }
 
 a:hover {
-    text-decoration: none;
-		color: #ff3300;
+  text-decoration: none;
+	color: #ff3300;
 }
 
 a:active {
-    text-decoration: underline;
-		color: red;
+  text-decoration: underline;
+	color: red;
 }
 
 h1 {
@@ -103,6 +103,7 @@ p{
 /* Layout */
 
 .logo{
+	font-family: 'Bad Script', 'Lato', fantasy;
   display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
@@ -134,7 +135,7 @@ p{
   text-align: center;
  	display: inline-grid;
 	padding-top: 1em;
-	padding-bottom: 1em;
+ 	padding-bottom: 1em;
  }
 
 /*~~~index (home) page~~~*/
@@ -202,10 +203,12 @@ p{
 }
 
 .resumeHeaders{
+	font-size: 1.3em;
 	text-align: center;
 	margin-left: 2em;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+	font-family: 'Buda', sans-serif;
 }
 
 /* education */
@@ -224,7 +227,6 @@ p{
   list-style-type: none;
   overflow: hidden;
   display: inline-block;
-	margin-top: 0.3em;
 	margin-left: 2.5em;
 	margin-right: 2.5em;
 	margin-bottom: 1.5em;
@@ -254,10 +256,6 @@ p{
 	text-align: center;
 }
 
-.skillName{
-	font-size: 1.1em;
-}
-
 .skillsList1{
 	text-align: center;
   list-style-type: none;
@@ -274,17 +272,44 @@ p{
 	margin: 0.5em;
 	padding: 0.2em;
 	border: solid;
-	border-color: gray;
+	border-color: teal;
 	border-radius: 0.4em;
-	-webkit-transition-duration: 0.2s;
+	-webkit-transition-duration: 0.3s;
 	/* Safari */
-	transition-duration: 0.2s;
+	transition-duration: 0.3s;
 	cursor: pointer;
-	}
-	.skill:hover {
-		opacity: 0.5;
+}
+
+.skill:hover {
+	/* opacity: 0.6; */
 	background-color: #2e4053;
-	}
+}
+
+.certs{
+	text-align: center;
+	list-style-type: none;
+	margin: 0.3em;
+	overflow: hidden;
+	display: inline-block;
+}
+
+li .certs {
+	text-align: center;
+	display: inline-grid;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.exp{
+	text-align: center;
+	list-style-type: none;
+	overflow: hidden;
+	display: inline-block;
+	margin: 1em;
+	border: none;
+	border-radius: 0.3em;
+	border-color: teal;
+}
 
 
 /*~~~About Me~~~*/
@@ -333,7 +358,7 @@ p{
 	/*background-color: #33333a; #5d6d7e;*/
 	cursor: pointer;
 	padding: 3em;
-	maxa-width: 20%;
+	max-width: 20%;
 	border-radius: 0.4em;
 	-webkit-transition-duration: 0.4s;
 	/* Safari */
@@ -346,6 +371,9 @@ p{
 	background-color: #1e1e23;
 }
 
+.workImg{
+	max-width: 100%;
+}
 
 /*~~~ Contact Me page ~~~*/
 
@@ -379,20 +407,20 @@ input:focus{
 }
 
 #message{
-		width: 100%;
-    min-height: 100%;
-		padding-left: 0.2em;
-		padding-right: 3.8em;
-		padding-top:0.2em;
-		padding-bottom: 3.8em;
-    box-sizing: border-box;
-    resize: both;
-		text-align: left;
-		display: inline-block;
-		border: 0.2em solid #99FFFF;
-		border-radius: 0.1em;
-		background-color: #cbffef;
-		color: black;
+	width: 100%;
+  min-height: 100%;
+	padding-left: 0.2em;
+	padding-right: 3.8em;
+	padding-top:0.2em;
+	padding-bottom: 3.8em;
+  box-sizing: border-box;
+  resize: both;
+	text-align: left;
+	display: inline-block;
+	border: 0.2em solid #99FFFF;
+	border-radius: 0.1em;
+	background-color: #cbffef;
+	color: black;
 }
 
 #message:focus{
