@@ -140,40 +140,89 @@ p{
 
 /* css for pop-ups (on resume and works pages) */
 /* Popup box BEGIN */
-.popup{
-    background:rgba(0,0,0,.4);
-    cursor:pointer;
-    display:none;
-    position:fixed;
-    text-align:center;
-    max-width:100%;
-}
-.popup .helper{
-    display:inline-block;
-    height:100%;
-    vertical-align:middle;
-}
-.popup > div {
-    background-color: #fff;
-    box-shadow: 10px 10px 60px #555;
-    display: inline-block;
-    height: auto;
-    max-width: 551px;
-    min-height: 100px;
-    vertical-align: middle;
-    width: 60%;
-    position: relative;
-    border-radius: 8px;
-    padding: 15px 5%;
+.ghir{
+  background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
 }
 
-.exlogo{
+.einstein{
+  background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
+}
+
+.follett{
+  background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
+}
+
+.bgc{
+  background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
+}
+
+.assist{
+  background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
+}
+
+.gwc{
+  background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
+}
+
+.ghirLogo{
     cursor: pointer;
     display: inline-block;
 }
-/* Popup box BEGIN */
 
+.einLogo{
+    cursor: pointer;
+    display: inline-block;
+}
 
+.folLogo{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.bgcLogo{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.assLogo{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.gwcLogo{
+    cursor: pointer;
+    display: inline-block;
+}
 /*~~~index (home) page~~~*/
 /*arrows are button links on index.html pg*/
 .arrow{
@@ -244,7 +293,7 @@ p{
 	margin-left: 2em;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	/*font-family: 'Buda', sans-serif;*/
+	/*font-family: 'Chilanka', 'Buda', sans-serif;*/
 }
 
 /* education */
@@ -392,10 +441,16 @@ li .certs {
 	text-align: center;
  	display: inline-grid;
   border: solid;
+	border-color: white;
+	border-width: thin;
 	/*background-color: #33333a; #5d6d7e;*/
 	cursor: pointer;
-	padding: 3em;
-	max-width: 20%;
+	padding: 1.3em;
+	margin-left: 0.3em;
+	margin-bottom: 0.3em;
+	margin-top: 0.2em;
+	max-width: 50%;
+	height: 1em;
 	border-radius: 0.4em;
 	-webkit-transition-duration: 0.4s;
 	/* Safari */

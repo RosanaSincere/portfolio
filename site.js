@@ -1,27 +1,53 @@
+/*alert("Hello! I am an alert box!!");*/
+
 $(window).load(function () {
-    $(".exlogo").on("click", function(){
-       $('.popup').show();
+    /*Ghirardelli*/
+    $(".ghir").hide();
+    $(".ghirLogo").on("click", function(){
+       $(".ghir").show();
     });
-    $('.popup').on("click", function(){
-        $('.popup').hide();
-    });s
+    $(".ghir").on("click", function(){
+        $(".ghir").hide();
+    });
+    /*Einstein*/
+    $(".einstein").hide();
+    $(".einLogo").on("click", function(){
+       $(".einstein").show();
+    });
+    $(".einstein").on("click", function(){
+        $(".einstein").hide();
+    });
+    /*Follett*/
+    $(".follett").hide();
+    $(".folLogo").on("click", function(){
+       $(".follett").show();
+    });
+    $(".follett").on("click", function(){
+        $(".follett").hide();
+    });
+    /*Black girls Code */
+    $(".bgc").hide();
+    $(".bgcLogo").on("click", function(){
+       $(".bgc").show();
+    });
+    $(".bgc").on("click", function(){
+        $(".bgc").hide();
+    });
+    /* Assist Young Scholars */
+    $(".assist").hide();
+    $(".assLogo").on("click", function(){
+       $(".assist").show();
+    });
+    $(".assist").on("click", function(){
+        $(".assist").hide();
+    });
+    /*Girls Who Code */
+    $(".gwc").hide();
+    $(".gwcLogo").on("click", function(){
+       $(".gwc").show();
+    });
+    $(".gwc").on("click", function(){
+        $(".gwc").hide();
+    });
+
 });
-
-/*
-
-top.frameName.document.write('<APPLET WIDTH=100
-HEIGHT=100
-NAME="appletname"
-CODE="appletname.class"
-</APPLET>');
-Here frameName indicates the frame where you want the applet to run.
-You can also run the applet on a new window as follows:
-Inside the function:
-var win=window.open("","","location=0,menubar=0,resizable=0,toolbar=0,status=0,height=150,width=500");
-win.document.writeln('<APPLET WIDTH=100
-HEIGHT=100
-NAME="appletname"
-CODE="appletname.class"
-</APPLET>');
-
-*/
