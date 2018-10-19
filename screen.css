@@ -195,34 +195,74 @@ p{
 }
 
 .ghirLogo{
-    cursor: pointer;
-    display: inline-block;
+	cursor: pointer;
+  display: inline-block;
 }
 
 .einLogo{
-    cursor: pointer;
-    display: inline-block;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .folLogo{
-    cursor: pointer;
-    display: inline-block;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .bgcLogo{
-    cursor: pointer;
-    display: inline-block;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .assLogo{
-    cursor: pointer;
-    display: inline-block;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .gwcLogo{
-    cursor: pointer;
-    display: inline-block;
+  cursor: pointer;
+  display: inline-block;
 }
+
+.webD{
+	cursor: pointer;
+	display: inline-block;}
+
+.photoEd{
+	cursor: pointer;
+	display: inline-block;}
+
+.other{
+	cursor: pointer;
+	display: inline-block;}
+
+.webD1{
+	background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
+}
+
+.photoEd1{
+	background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
+}
+
+.other1{
+	background: gray;
+  cursor: pointer;
+  display:inline-block;
+  position: relative;
+  text-align: center;
+	max-width: 80%;
+}
+
 /*~~~index (home) page~~~*/
 /*arrows are button links on index.html pg*/
 .arrow{

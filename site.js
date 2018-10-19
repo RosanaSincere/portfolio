@@ -1,11 +1,13 @@
 /*alert("Hello! I am an alert box!!");*/
 
+/* ~~~~~Resume Page~~~~ */
 $(window).load(function () {
     /*Ghirardelli*/
     $(".ghir").hide();
     $(".ghirLogo").on("click", function(){
        $(".ghir").show();
     });
+    /* MAKE AN if statement "if .ghir = show, when ghirLogo clicked, hide"*/
     $(".ghir").on("click", function(){
         $(".ghir").hide();
     });
@@ -49,5 +51,33 @@ $(window).load(function () {
     $(".gwc").on("click", function(){
         $(".gwc").hide();
     });
+    /* ~~~~end resume page~~~~ */
+
+/* ~~~~Works page~~~~ */
+    /* Web Design */
+    $(".webD1").hide();
+  /*  $(".webD").on("click", function(){
+       $(".webD1").show();
+    });
+    $(".webD1").on("click", function(){
+        $(".webD1").hide();
+    });*/
+    /* Photo Editing */
+    $(".photoEd1").hide();
+  /*  $(".photoEd").on("click", function(){
+       $(".photoEd1").show();
+    });
+    $(".photoEd1").on("click", function(){
+        $(".photoEd1").hide();
+    });
+
+    /* Other */
+    $(".other1").hide();
+    /*$(".other").on("click", function(){
+       $(".other1").show();
+    });
+    $(".other1").on("click", function(){
+        $(".other1").hide();
+    });*/
 
 });
