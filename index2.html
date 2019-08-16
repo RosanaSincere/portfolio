@@ -1,0 +1,131 @@
+<!-- This index is of the new "single page" trend style -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rosana Sincere</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <link rel="stylesheet" href="screen2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="screen2.js"></script>
+  </head>
+
+
+  <body class="body">
+    <!--                  MENU                   -->
+
+
+    <!-- navigagion will be hidden in a hamburger -->
+            <div id="menu">
+                <a href="#home" class="">Home</a>
+                <a href="#aboutMe" class=""> About Me </a>
+                <a href="#portfolio" class=""> Portfolio </a>
+                <a href="#contact" class=""> Contact Me </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!-- js from w3schools -->
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }
+              </script>
+
+
+<!--            HOME (PAGE 1)      -->
+
+    <div id="home">
+      <img src="images/name2.png" alt="Rosana Sincere" id="name">
+      <p class="headline">
+      IT Student at Illinois Institute of Technology
+    </p>
+      </div>
+
+<!--            ABOUT ME (PAGE 2)     -->
+
+    <div id="aboutMe">
+      <p class = "header"> About Me </p>
+      <p class="headline"> Headline that stands out </p>
+      <p class = "description"> I'm just filling it in right now to make sure that this image absolutely looks nice.
+        I should keep the descriptiion short and sweet. No more than 4 lines. </p>
+    </div>
+
+    <!--            PORTFOLIO (PAGE 3)     -->
+    <div id="portfolio">
+      <p class = "header"> My Portfolio </p>
+      <p class = "headline"> Downlaod a copy of my resume here:</p>
+      <a href="_currentResume" id="download" download>Download PDF Copy</a><!-- update-->
+      <div>
+        <p id = "header"> Top Skills: </p>
+        <p id="skill1"> Web/Graphic Design </p>
+        <p id ="skill2"> Troubleshooting </p>
+        <p id ="skill3"> Customer Service </p>
+        <p id="skill4"> Database Management </p>
+      </div>
+      <p class="description"> With experience in web and graphic design,
+        These demos display what is only the beginning of what I can and will be able to do!</p>
+        <!-- needs editing-->
+    </div>
+    <div id="contact">
+      <p class="header"> Let's Keep in Touch! </p>
+      <p class="headline"> Contact me at 123 456 7890 or email me at rosanasincere@gmail.com </p>
+      <p>or you can fill out this form below.</p>
+
+      <!-- email form -->
+      <form action="mailto:rosanasincere@gmail.com?Subject=Portfolio%20Inquiry" method="post" id="form">
+        <ol>
+          <li class="contact">
+            <label for="name">Name:</label>
+            <input type="text" class="field" required>
+          </li>
+          <li class="contact">
+            <label for="email">Email: </label>
+            <input placeholder="email@example.com" type="email" class="field" name="email" required>
+          </li>
+          <li class="contact">
+            <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+            <!---why does the text box have 5 spaces autimatically in it?(a tab?)-->
+          </li>
+          <li class="contact">
+          <!--  <a href="mailto:rosanasincere@gmail.com?Subject=Portfolio%20Inquiry" target="_top">-->
+              <input type="submit" name="button" id="sendEmail" value="Send"/>
+          <!--  </a>-->
+          </li>
+        </ol>
+      </form>
+
+      <p id="findMe"> Find me on Social Media!</p>
+      <div id="socialMedia">
+        <ul class=socials>
+          <li name="LinkedIn"class="socials"><a href="https://www.linkedin.com/in/rosanasincere/">
+          <img src="images/SM_Icons/in.png"></a></li>
+          <li name="FB"class="socials"><a href="https://www.facebook.com/rosana.sincere">
+            <img src=images/SM_Icons/fb.png></a></li>
+          <li name="github" class="socials"><a href="https://github.com/RosanaSincere">
+            <img src="images/SM_Icons/github.png"></a></li>
+          <li name="replit" class="socials"><a href="https://repl.it/@Rosanasincere">
+          <img src="images/SM_Icons/repl_it.png"></a></li>
+          <li name="HR" class="socials"><a href="https://www.hackerrank.com/rosanasincere">
+          <img src="images/SM_Icons/hr.png"></a></li>
+          <li name="IG" class="socials"><a href="https://www.instagram.com/rosanas_/">
+          <img src="images/SM_Icons/ig.png"></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>
